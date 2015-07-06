@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Flag</title>
+    </head>
+  
+  <body>
+    <center>
+      <div style="width: 500px">
+       <h1>The flag is: <!-- The flag is: $flag --> </h1>
+
+	</div>
+      </center>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+{"name": "Oh No!",
+ "score": 20,
+ "category": "Web Exploitation",
+ "grader": "web/hidden-message/grader.py",
+ "generator": "stage1/web/oh_no/generator.py",
+ "description": "We seem to have misplaced the flag! Sorry about that, but we swear it was left on this site. Perhaps you can find it?",
+ "threshold": 0,
+ "autogen": true,
+ "weightmap": {},
+ "hint": "Perhaps it might be hidden in the source?"}
