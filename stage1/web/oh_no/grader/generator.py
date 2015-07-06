@@ -22,7 +22,7 @@ def generate(random, pid, autogen_tools, n):
         rendered_template_path
     )
 
-    homepage_link = autogen_tools.generate_resource_link(pid, "flag.html", title="misplaced flag")
+    homepage_link = autogen_tools.generate_resource_link(pid, "flag.html", title="site")
 
     return {
         "resource_files": {
@@ -33,6 +33,6 @@ def generate(random, pid, autogen_tools, n):
         "static_files": {
         },
         "problem_updates": {
-            "description": "We seem to have misplaced the flag! Sorry about that, but we swear it was left on this site: %s. Perhaps you can find it?" % homepage_link
+            "description": "We seem to have misplaced the flag! Sorry about that, but we swear it was left on this %s. Perhaps you can find it?" % homepage_link
         }
     }
