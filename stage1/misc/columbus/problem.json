@@ -1,7 +1,7 @@
 {"name": "Columbus Day",
  "score": 20,
  "category": "Miscellaneous",
- "grader": "misc/columbus/grader.py",
+ "grader": "stage1/misc/columbus/grader.py",
  "description": "In what year did Columbus sail the ocean blue?",
  "autogen": false,
  "threshold": 0,
