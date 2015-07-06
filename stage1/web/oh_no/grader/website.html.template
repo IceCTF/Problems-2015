@@ -6,7 +6,7 @@
   <body>
     <center>
       <div style="width: 500px">
-       <h1>The flag is: <!-- The flag is: $flag --> </h1>
+      <h1>The flag is: <!-- $flag --> </h1>
 
 	</div>
       </center>
