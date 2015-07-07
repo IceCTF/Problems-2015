@@ -5,4 +5,4 @@
  "description": "Could there be something hidden on our <a href='https://facebook.com/icectf'>facebook page</a>?",
  "threshold": 0,
  "weightmap": {},
- "hint": "Could the flag have been posted to the page somewhere?"}
+ "hint": "If I were a flag, where would I be?"}
