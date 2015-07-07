@@ -1,0 +1,1 @@
+The cipher is a simple ROT13 cipher, which can be decrypted using [http://www.rot13.com/](http://www.rot13.com/). The flag is just `rot13_isnt_secure`

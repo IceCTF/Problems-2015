@@ -1,0 +1,1 @@
+The flag is just in a message posted to the page. Flag: `flag_ba7da3b3439b28b39eaa9`.
