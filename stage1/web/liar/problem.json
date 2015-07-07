@@ -5,4 +5,4 @@
  "description": "We found this <a target=_blank href='/problem-static/stage1/web/liar/liar.html'>site</a> which seems to just give you the flag. You wouldn't mind entering it for us, would you?",
  "threshold": 0,
  "weightmap": {},
- "hint": "It's not as easy as it seems. Maybe you can call a function of some sorts?"}
+ "hint": "It's not as easy as it seems. Maybe the flag is hidden somewhere?"}
