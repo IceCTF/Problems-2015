@@ -1,0 +1,8 @@
+{"name": "Liar!",
+ "score": 20,
+ "category": "Web Exploitation",
+ "grader": "stage1/web/liar/grader.py",
+ "description": "We found this site which seems to just give you the flag. You wouldn't mind entering it for us, would you?",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "It's not that easy :/"}
