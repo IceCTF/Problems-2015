@@ -1,0 +1,8 @@
+{"name": "Not Found",
+ "score": 20,
+ "category": "Forensics",
+ "grader": "stage1/forensics/not_found/grader.py",
+ "description": "I lost this problem!!! Can you help me find it? There's a flag in it for you if you do ;)",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "I think the title says it all... maybe it should be looked into."}

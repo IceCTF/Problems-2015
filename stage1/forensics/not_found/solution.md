@@ -1,0 +1,1 @@
+The flag is in one of the 404 pages of the competition. Flag: `flag_7500611bf7030bc99d25c354e7b64714`
