@@ -2,7 +2,7 @@
  "score": 60,
  "category": "Binary Exploitation",
  "grader": "stage2/binary/pyshell/grader.py",
- "description": "<p>Daniel is running this server which allows you to evaluate basic python expressions. Can you see if you can get it to print the flag?</p> <p>You can access it by running <code>nc vuln2015.icec.tf 8000</code>.</p><p><a href='/problem-static/stage2/binary/pyshell/shell.py'>Source</a></p>",
+ "description": "<p>Daniel is running this server which allows you to evaluate basic python expressions. It's clear that he's tried to secure it though. Can you see if you can get it to print the flag?</p> <p>You can access it by running <code>nc vuln2015.icec.tf 8000</code>.</p><p><a href='/problem-static/stage2/binary/pyshell/shell.py'>Source</a></p>",
  "threshold": 0,
  "weightmap": {},
  "hint": "I think something suspicious might be running this code."}
