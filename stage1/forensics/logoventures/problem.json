@@ -2,7 +2,7 @@
  "score": 20,
  "category": "Forensics",
  "grader": "stage1/forensics/logoventures/grader.py",
- "description": "I know what you're thinking... Why am I storing all of this important data in images? Can you just get it for me? <a href='/problem-static/stage1/forensics/logoventures/logo.gif'>Image</a>",
+ "description": "I believe I misplaced something in this <a href='/problem-static/stage1/forensics/logoventures/logo.gif'>image</a>, could you see if you can find it for me?",
  "threshold": 0,
  "weightmap": {},
  "hint": "Only if you could slow down time itself"}

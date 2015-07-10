@@ -2,7 +2,7 @@
  "score": 40,
  "category": "Forensics",
  "grader": "stage2/forensics/scanme/grader.py",
- "description": "I found this <a href='/problem-static/stage2/forensics/scanme/qr.jpg'>QR Code</a> but I'm having some troubles scanning it",
+ "description": "I found this <a href='/problem-static/stage2/forensics/scanme/qr.jpg'>QR Code</a> but I'm having some troubles scanning it. Be a dear and help me, won't you?",
  "threshold": 0,
  "weightmap": {},
  "hint": "There's something off about that code... maybe it can be fixed though."}

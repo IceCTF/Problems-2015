@@ -2,7 +2,7 @@
  "score": 30,
  "category": "Forensics",
  "grader": "stage1/forensics/logoventures2/grader.py",
- "description": "I believe I misplaced something important in this <a href='/problem-static/stage1/forensics/logoventures2/logo.jpg'>image</a>, can you see if you can't find it for me?",
+ "description": "<p>I know what you're thinking... Why am I storing all of this important data in images? Well, you should mind your own buisness.</p><p>Can you just get the information for me?</p> <p><a href='/problem-static/stage1/forensics/logoventures2/logo.jpg'>Image</a></p>",
  "threshold": 0,
  "weightmap": {},
  "hint": "The flag must eXist in the image somewhere!"}
