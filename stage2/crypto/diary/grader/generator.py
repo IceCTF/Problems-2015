@@ -37,7 +37,7 @@ def generate(random, pid, autogen_tools, n):
         },
         "static_files": {
             "public": [
-                (path.join(generator_path, "..", "static","diary.py"), "diary.py")
+                (path.abspath(path.join(generator_path, "..", "static","diary.py")), "diary.py")
             ]
         },
         "problem_updates": {
