@@ -3,10 +3,10 @@ from hashlib import sha1
 from base64 import b64encode
 
 def xor(text, key):
-    res = ""
+    res = []
     for c in text:
-        res += chr(ord(c) ^ key)
-    return b64encode(res)
+        res.append(chr(ord(c) ^ key))
+    return b64encode(bytes(res))
 
 def generate(random, pid, autogen_tools, n):
     """
