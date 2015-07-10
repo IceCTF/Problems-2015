@@ -5,7 +5,7 @@ from base64 import b64encode
 def xor(text, key):
     res = []
     for c in text:
-        res.append(chr(ord(c) ^ key))
+        res.append(ord(c) ^ key)
     return b64encode(bytes(res))
 
 def generate(random, pid, autogen_tools, n):
