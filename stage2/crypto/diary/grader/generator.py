@@ -31,7 +31,7 @@ def generate(random, pid, autogen_tools, n):
     )
 
     encrypted_link = autogen_tools.generate_resource_link(pid, "encrypted", title="encrypted")
-    source_link = autogen_tools.generate_resource_link(pid, "diary.py", title="script")
+    source_link = autogen_tools.generate_resource_link(pid, "diary.py", static=True, title="script")
 
     return {
         "resource_files": {
