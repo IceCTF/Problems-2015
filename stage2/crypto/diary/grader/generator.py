@@ -20,7 +20,7 @@ def generate(random, pid, autogen_tools, n):
 
     key = "xor_20134113"
     flag = "flag_" + sha1((str(n) + key).encode('utf-8')).hexdigest()
-    text = xor(flag, random.randint(0x1,0xff))
+    text = xor("You accessed all my secrets :(. But the juicy diary entries are in another castle! Here is the flag though: " + flag, random.randint(0x1,0xff))
 
     out_file = open(rendered_template_path, 'w')
     out_file.write(text)
