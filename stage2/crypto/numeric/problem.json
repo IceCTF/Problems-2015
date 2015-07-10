@@ -1,0 +1,8 @@
+{"name": "Numeric",
+ "score": 40,
+ "category": "Cryptography",
+ "grader": "stage2/crypto/numeric/grader.py",
+ "description": "bG9zdF9pbl90aGVfbnVtYmVycw==",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "This code reminds me of something..."}
