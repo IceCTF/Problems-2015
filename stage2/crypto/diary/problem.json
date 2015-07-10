@@ -1,0 +1,10 @@
+{"name": "Diary",
+ "score": 50,
+ "category": "Cryptography",
+ "grader": "stage2/crypto/xor/grader.py",
+ "description": "Diary",
+ "generator": "stage2/crypto/diary/generator.py",
+ "autogen": true,
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "This code reminds me of something..."}
