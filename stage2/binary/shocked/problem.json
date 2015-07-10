@@ -2,7 +2,7 @@
  "score": 40,
  "category": "Binary Exploitation",
  "grader": "stage2/binary/shocked/grader.py",
- "description": "<p>We found this server, which gives you the current date and time when you connect to it. Useful, right? We think there is more to it though...</p> <p>You can access it by running <code>ssh -l ctf localhost -p 2022</code>. The password is <code>icectf2015</code>.</p>",
+ "description": "<p>We found this server, which gives you the current date and time when you connect to it. Useful, right? We think there is more to it though...</p> <p>You can access it by running <code>ssh -p 2022 ctf@vuln2015.icec.tf</code>. The password is <code>icectf2015</code>.</p>",
  "threshold": 0,
  "weightmap": {},
  "hint": "I think something suspicious might be running this code."}
