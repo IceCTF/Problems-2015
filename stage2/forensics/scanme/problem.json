@@ -1,7 +1,7 @@
 {"name": "Scan Me",
  "score": 40,
  "category": "Forensics",
- "grader": "stage1/forensics/scanme/grader.py",
+ "grader": "stage2/forensics/scanme/grader.py",
  "description": "I found this <a href='/problem-static/stage2/forensics/scanme/qr.jpg'>QR Code</a> but I'm having some troubles scanning it",
  "threshold": 0,
  "weightmap": {},
