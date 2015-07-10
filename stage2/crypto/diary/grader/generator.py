@@ -1,12 +1,11 @@
 from os import path
 from hashlib import sha1
-from base64 import b64encode
 
 def xor(text, key):
-    res = []
+    res = ""
     for c in text:
-        res.append(ord(c) ^ key)
-    return b64encode(bytes(res))
+        res += chr(ord(c) ^ key)
+    return 
 
 def generate(random, pid, autogen_tools, n):
     """
@@ -17,18 +16,15 @@ def generate(random, pid, autogen_tools, n):
     #Get a random build path
     generator_path = autogen_tools.get_directory(__file__)
 
-    template_path = path.join(generator_path, "encrypted.template")
     rendered_template_path = path.join(generator_path, "encrypted")
 
     key = "xor_20134113"
     flag = "flag_" + sha1((str(n) + key).encode('utf-8')).hexdigest()
     text = xor(flag, random.randint(0x1,0xff)).decode("utf-8")
 
-    autogen_tools.replace_source_tokens(
-        template_path,
-        {"text": text},
-        rendered_template_path
-    )
+    out_file = open(rendered_template_path, 'w')
+    out_file.write(text)
+    out_file.close()
 
     encrypted_link = autogen_tools.generate_resource_link(pid, "encrypted", title="encrypted")
     source_link = autogen_tools.generate_resource_link(pid, "diary.py", static=True, title="script")
@@ -40,6 +36,9 @@ def generate(random, pid, autogen_tools, n):
             ],
         },
         "static_files": {
+            "public": [
+                (path.join(generator_path, "..", "static","diary.py"), "diary.py")
+            ]
         },
         "problem_updates": {
         "description": "<p>A friend of yours has been using this %s to encrypt his diary. Being the nosy person you are, you must take a look! Can you decrypt it?</p><p>%s</p>" % (source_link, encrypted_link)

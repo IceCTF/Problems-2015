@@ -21,11 +21,11 @@ def encrypt(input_data, password):
         # multiply by a prime for security
         key ^= ((2 * ord(ch)**2 + 3*ord(ch) + 7) & 0xff)
 
-    return base64.b64encode(xor(input_data, key))
+    return xor(input_data, key)
 
 def decrypt(input_data, password):
     # This is XOR encryption, so decryption is just the same
-    return encrypt(base64.b64decode(input_data), password)
+    return encrypt(input_data, password)
 
 
 def main():
