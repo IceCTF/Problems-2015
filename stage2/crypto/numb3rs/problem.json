@@ -1,0 +1,8 @@
+{"name": "Numb3rs",
+ "score": 20,
+ "category": "Cryptography",
+ "grader": "stage2/crypto/numb3rs/grader.py",
+ "description": "05110006_00111507000104190802_08130308020418",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "I think they come in pairs"}
