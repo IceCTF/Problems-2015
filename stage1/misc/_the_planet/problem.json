@@ -5,4 +5,4 @@
  "description": "'_ the Planet!' Fill in the blank",
  "autogen": false,
  "threshold": 0,
- "hint": "You should probably watch the movie <a href='http://www.imdb.com/title/tt0113243/'>Hackers</a>, go on... we'll wait"}
+ "hint": "You should probably watch the movie <a target='_blank' href='http://www.imdb.com/title/tt0113243/'>Hackers</a>, go on... we'll wait"}
