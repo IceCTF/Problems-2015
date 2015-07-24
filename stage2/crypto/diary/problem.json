@@ -1,5 +1,5 @@
 {"name": "Diary",
- "score": 50,
+ "score": 60,
  "category": "Cryptography",
  "grader": "stage2/crypto/xor/grader.py",
  "description": "Diary",

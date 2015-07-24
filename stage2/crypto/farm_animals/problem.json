@@ -1,5 +1,5 @@
 {"name": "Farm Animals",
- "score": 50,
+ "score": 60,
  "category": "Cryptography",
  "grader": "stage2/crypto/farm_animals/grader.py",
  "description": "We found this <a target='_blank' href='/problem-static/stage2/crypto/farm_animals/crypto1.png'>message</a> written in strange symbols, can you read it for us?",

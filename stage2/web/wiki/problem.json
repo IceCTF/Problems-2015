@@ -1,5 +1,5 @@
 {"name": "Wiki",
- "score": 70,
+ "score": 90,
  "category": "Web Exploitation",
  "grader": "stage2/web/wiki/grader.py",
  "description": "This corporation hid their flag on their <a href='http://vuln2014.icec.tf:10501'>wiki page</a>. Can you find it?",
