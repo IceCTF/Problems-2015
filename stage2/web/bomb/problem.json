@@ -1,0 +1,8 @@
+{"name": "Bomb!",
+ "score": 40,
+ "category": "Web Exploitation",
+ "grader": "stage2/web/bomb/grader.py",
+ "description": "We found a bomb!!! It could go off at any point! We found the control panel for the bomb though, it's <a href='http://web2015.icec.tf/bomb'>here</a>. Can you defuse it?",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Maybe you could ask it nicely?"}
