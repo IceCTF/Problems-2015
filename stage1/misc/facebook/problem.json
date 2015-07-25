@@ -2,7 +2,7 @@
  "score": 20,
  "category": "Miscellaneous",
  "grader": "stage1/misc/facebook/grader.py",
- "description": "Could there be something hidden on our <a href='https://facebook.com/icectf'>facebook page</a>?",
+ "description": "Could there be something hidden on our <a target='_blank' href='https://facebook.com/icectf'>facebook page</a>?",
  "threshold": 0,
  "weightmap": {},
  "hint": "If I were a flag, where would I be?"}

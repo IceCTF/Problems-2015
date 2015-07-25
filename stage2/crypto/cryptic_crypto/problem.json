@@ -1,8 +1,0 @@
-{"name": "Cryptic Crypto",
- "score": 40,
- "category": "Cryptography",
- "grader": "stage2/crypto/cryptic_crypto/grader.py",
- "description": "Can you take a look at this non-sense <a href='/problem-static/stage2/crypto/cryptic_crypto/text.txt>wall of text</a> we stumbled upon?",
- "threshold": 0,
- "weightmap": {},
- "hint": "We're fairly sure this contains english text"}

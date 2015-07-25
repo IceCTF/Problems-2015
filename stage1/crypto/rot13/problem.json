@@ -2,7 +2,7 @@
  "score": 20,
  "category": "Cryptography",
  "grader": "stage1/crypto/rot13/grader.py",
- "description": "Can you decipher <a target=_blank href='/problem-static/stage1/crypto/rot13/code.txt'>this secret message</a>?",
+ "description": "Can you decipher <a target='_blank' href='/problem-static/stage1/crypto/rot13/code.txt'>this secret message</a>?",
  "threshold": 0,
  "weightmap": {},
  "hint": "This cipher better be crackable..."}
