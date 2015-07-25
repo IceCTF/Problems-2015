@@ -1,0 +1,8 @@
+{"name": "SQL Injection 1",
+ "score": 70,
+ "category": "Web Exploitation",
+ "grader": "stage2/web/injection_1/grader.py",
+ "description": "I wanna access <a href='http://web2015.icec.tf/injection1'>this</a> page. Don't ask me why... just do it.",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "I feel like the title should be enough :/"}
