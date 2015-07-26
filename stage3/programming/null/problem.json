@@ -1,0 +1,8 @@
+{"name": "NULL",
+ "score": 75,
+ "category": "Programming",
+ "grader": "stage3/programming/null/grader.py",
+ "description": "We found this <a href='/problem-static/stage3/programming/null/flag.txt'>text file</a> and it's suppose to have the flag, but I can't see anything",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Hmmm... it's not empty, why is this in the programming category?"}
