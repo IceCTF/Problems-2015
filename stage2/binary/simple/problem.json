@@ -1,0 +1,8 @@
+{"name": "Simple",
+ "score": 30,
+ "category": "Binary Exploitation",
+ "grader": "stage2/binary/simple/grader.py",
+ "description": "Simple, right? <code>nc vuln2015.icec.tf 10000</code>.",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "What is at the other end?"}
