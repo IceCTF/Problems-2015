@@ -1,7 +1,7 @@
 {"name": "Document Troubles",
  "score": 30,
  "category": "Forensics",
- "grader": "stage1/forensics/doc_troubles/grader.py",
+ "grader": "stage2/forensics/doc_troubles/grader.py",
  "description": "We found this <a target='_blank' href='/problem-static/stage2/forensics/doc_troubles/file.docx'>document</a>, and we think it contains the flag. Can you find it?",
  "threshold": 0,
  "weightmap": {},
