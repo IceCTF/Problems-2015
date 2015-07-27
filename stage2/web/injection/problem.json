@@ -1,0 +1,8 @@
+{"name": "Injection",
+ "score": 50,
+ "category": "Web Exploitation",
+ "grader": "stage2/web/injection/grader.py",
+ "description": "I'm just gonna leave <a href='http://web2015.icec.tf/injection'>this</a> here...",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Can you try to enable debug mode?"}

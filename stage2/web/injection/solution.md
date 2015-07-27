@@ -1,0 +1,1 @@
+register globals allows you to add variables in the php code with query parameters
