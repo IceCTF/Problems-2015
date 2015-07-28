@@ -2,7 +2,7 @@
  "score": 60,
  "category": "Forensics",
  "grader": "stage2/forensics/sharknado/grader.py",
- "description": "We managed to intercept <a target='_blank' href='/problem-static/stage2/forensics/sharknado/sharknado.pcap'>this web traffic</a>, the target was logging on to web2015.icec.tf. can you look into it?",
+ "description": "We managed to intercept <a target='_blank' href='/problem-static/stage2/forensics/sharknado/sharknado.pcap'>this web traffic</a>, the target was logging on to <a target='_blank' href='http://web2015.icec.tf/sharknado'>web2014.icec.tf</a>. can you look into it?",
  "threshold": 0,
  "weightmap": {},
  "hint": "If only you could filter the packets to make things easier..."}
