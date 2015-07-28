@@ -1,8 +1,8 @@
 {"name": "Not Found",
  "score": 20,
  "category": "Miscellaneous",
- "grader": "stage1/miscellaneous/not_found/grader.py",
+ "grader": "stage1/misc/not_found/grader.py",
  "description": "I lost this problem!!! Can you help me find it? There's a flag in it for you if you do ;)",
  "threshold": 0,
  "weightmap": {},
- "hint": "CDIV 0x194 AZQ= 0624 110010100, what does that spell?"}
+ "hint": "Perhaps it's on the CDIV(194) page?"}
