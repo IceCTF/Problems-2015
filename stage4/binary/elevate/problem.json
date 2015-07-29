@@ -1,0 +1,8 @@
+{"name": "Elevate",
+ "score": 120,
+ "category": "Binary Exploitation",
+ "grader": "stage4/binary/shocked/grader.py",
+ "description": "Do you want an elevated shell? I want an elevated shell. Get me one: <code>/home/elevate</code>",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "How can you access a password if you can't access it?"}
