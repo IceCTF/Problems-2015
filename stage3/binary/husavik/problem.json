@@ -1,8 +1,0 @@
-{"name": "Husavik",
- "score": 65,
- "category": "Binary",
- "grader": "stage3/binary/husavik/grader.py",
- "description": "This handy <a href='/problem-static/stage3/binary/husavik/husavik.apk'>Android App</a> is suppose to display the flag, but it's not working!",
- "threshold": 0,
- "weightmap": {},
- "hint": "Only if you could get into the code..."}
