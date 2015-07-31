@@ -5,4 +5,4 @@
  "description": "Here's a video hosting service. We got word that it contains <code>flag.txt</code> though. Can you get it? <a href='http://web2015.icec.tf/giga/'>Giga</a>",
  "threshold": 0,
  "weightmap": {},
- "hint": "Go have a look at the authentication code, it seems funky. Also, <code>strlen(AUTH_SECRET) == 32</code>"}
+ "hint": "Go have a look at the authentication code, it seems funky."}
