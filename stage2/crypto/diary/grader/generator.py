@@ -1,5 +1,6 @@
 from os import path
 from hashlib import sha1
+import codecs
 
 def xor(text, key):
     res = ""
@@ -22,9 +23,8 @@ def generate(random, pid, autogen_tools, n):
     flag = "flag_" + sha1((str(n) + key).encode('utf-8')).hexdigest()
     text = xor("You accessed all my secrets :(. But the juicy diary entries are in another castle! Here is the flag though: " + flag, random.randint(0x1,0xff))
 
-    out_file = open(rendered_template_path, 'w')
-    out_file.write(text)
-    out_file.close()
+    with codecs.open(rendered_template_path, 'w', "utf-8") as out_file:
+        out_file.write(text)
 
     encrypted_link = autogen_tools.generate_resource_link(pid, "encrypted", title="encrypted")
     source_link = autogen_tools.generate_resource_link(pid, "diary.py", static=True, title="script")

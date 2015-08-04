@@ -1,0 +1,8 @@
+{"name": "Overflow 2",
+ "score": 70,
+ "category": "Binary Exploitation",
+ "grader": "stage2/binary/overflow2/grader.py",
+ "description": "I got another one: <code>/home/overflow2</code>. Good luck!",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "The code doesn't execute <code>give_shell</code>, but can you force it to?"}
