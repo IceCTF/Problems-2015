@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>IceCTF | Hackers in disguise</title>
+        <link rel="stylesheet" href="css/materialize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2 style="color: #24A567; font-weight: 200; margin-bottom: 0;">Hackers in disguise</h2>
+        </div>
+        <div class="row">
+            <div class="container">
+                <div class="row panel valign-wrapper">
+                    <div class="col s6">
+                        <form method="poop" action="#" enctype="multipart/form-data" id="frm" onchange="loadImage()">
+                            <label for="hacker">Hacker</label>
+                            <p class="range-field">
+                                <input type="range" id="hacker" min="1" max="3"/>
+                            </p>
+                            <label for="mustache">Mustache</label>
+                            <p class="range-field">
+                                <input type="range" id="mustache" min="1" max="3"/>
+                            </p>
+                            <label for="shades">Shades</label>
+                            <p class="range-field">
+                                <input type="range" id="shades" min="1" max="4"/>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="col s6">
+                        <center>
+                            <canvas id="canvas" class="valign"></canvas>
+                            <div id="spinner">
+                                <div class="preloader-wrapper big active valign">
+                                    <div class="spinner-layer spinner-green-only">
+                                        <div class="circle-clipper left">
+                                            <div class="circle"></div>
+                                        </div><div class="gap-patch">
+                                            <div class="circle"></div>
+                                        </div><div class="circle-clipper right">
+                                            <div class="circle"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="disguise.cgi">disguise.cgi</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

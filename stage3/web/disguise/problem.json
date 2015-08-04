@@ -1,0 +1,8 @@
+{"name": "Hackers in disguise",
+ "score": 80,
+ "category": "Web Exploitation",
+ "grader": "stage3/web/disguise/grader.py",
+ "description": "Hackers often don't want to be recognized in public for whatever reason, can you help them find a disguise on this handy <a href='http://web2015.icec.tf/disguise'>site</a>?",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "Making faces is fun, but making shells is more fun"}
