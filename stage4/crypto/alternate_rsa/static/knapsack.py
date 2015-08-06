@@ -113,12 +113,12 @@ def main(argv):
         public_key = gen_public_key(private_key)
 
         f = open(opts.pubkey_file, "w")
-        f.write(`public_key`)
+        f.write(repr(public_key))
         f.close()
         print "** Public key written to {}".format(opts.pubkey_file)
 
         f = open(opts.privkey_file, "w")
-        f.write(`private_key`)
+        f.write(repr(private_key))
         f.close()
         print "** Private key written to {}".format(opts.privkey_file)
 
