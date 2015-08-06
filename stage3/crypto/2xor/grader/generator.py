@@ -31,13 +31,13 @@ def generate(random, pid, autogen_tools, n):
     key = "xor1123901@#$"
     flag = "flag_" + sha1((str(n) + key).encode('utf-8')).hexdigest()
     with open(plaintext_path) as plain:
-        text = xor(plain.read() + flag, random_string(random, random.randint(4,8)), random_string(random, random.randint(3,5)))
+        text = xor(plain.read() + flag, random_string(random, random.randint(4,9)), random_string(random, random.randint(3,9)))
 
     with codecs.open(rendered_template_path, 'w', "utf-8") as out_file:
         out_file.write(text)
 
     encrypted_link = autogen_tools.generate_resource_link(pid, "encrypted", title="encrypted")
-    source_link = autogen_tools.generate_resource_link(pid, "2x0r.py", static=True, title="script")
+    source_link = autogen_tools.generate_resource_link(pid, "2x0r.py", static=True, title="here")
 
     return {
         "resource_files": {
@@ -51,6 +51,6 @@ def generate(random, pid, autogen_tools, n):
             ]
         },
         "problem_updates": {
-        "description": "<p>So it turns out that repeated XOR isn't exactly secure. After realizing this, Sadobe Corp decided to create a new standard, which it calls 2x0r.</p><p>Clearly, that must raise the computing power required exponentially! They provided a sample implementation here %s.</p><p>They also dared us to get the flag! Ofcourse, we take no such challenge lightly. Beat it out of them if you have to! %s</p>" % (source_link, encrypted_link)
+        "description": "<p>So it turns out that repeated XOR isn't exactly secure. After realizing this, Sadobe Corp decided to create a much more secure standard, which it calls 2x0r.</p><p>They provided a sample implementation %s.</p><p>They also dared us to get the flag! Ofcourse, we take no such challenge lightly. Beat it out of them if you have to! %s</p>" % (source_link, encrypted_link)
         }
     }
