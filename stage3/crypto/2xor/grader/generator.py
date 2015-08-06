@@ -10,7 +10,7 @@ def xor(text, key1, key2):
 
     res = ""
     for i in range(len(text)):
-        res += chr(ord(text[i]) ^ key1[i] ^ key2[i])
+        res += chr(ord(text[i]) ^ ord(key1[i]) ^ ord(key2[i]))
     return res
 
 def random_string(random, N):
