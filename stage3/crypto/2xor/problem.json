@@ -1,5 +1,5 @@
 {"name": "2x0r",
- "score": 60,
+ "score": 80,
  "category": "Cryptography",
  "grader": "stage3/crypto/2xor/grader.py",
  "description": "",
@@ -7,4 +7,4 @@
  "autogen": true,
  "threshold": 0,
  "weightmap": {},
- "hint": ""}
+ "hint": "Does doubling up really make things harder?"}
