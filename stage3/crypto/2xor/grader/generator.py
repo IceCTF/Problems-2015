@@ -25,10 +25,11 @@ def generate(random, pid, autogen_tools, n):
     generator_path = autogen_tools.get_directory(__file__)
 
     rendered_template_path = path.join(generator_path, "encrypted")
+    plaintext_path = path.join(generator_path, "plaintext.txt")
 
     key = "xor1123901@#$"
     flag = "flag_" + sha1((str(n) + key).encode('utf-8')).hexdigest()
-    with open("plaintext.txt") as plain:
+    with open(plaintext_path) as plain:
         text = xor(plain.read() + flag, random_string(random.randint(4,8)), random_string(random.randint(3,5)))
 
     with codecs.open(rendered_template_path, 'w', "utf-8") as out_file:
