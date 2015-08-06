@@ -2,6 +2,7 @@ from os import path
 from hashlib import sha1
 import codecs
 import string
+import random
 
 def xor(text, key1, key2):
     key1 = key1 * (len(text)//len(key1) + 1)
@@ -12,7 +13,7 @@ def xor(text, key1, key2):
         res += chr(ord(text[i]) ^ key1[i] ^ key2[i])
     return res
 
-def random_string(N):
+def random_string(random, N):
     return ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(N))
 
 def generate(random, pid, autogen_tools, n):
@@ -30,7 +31,7 @@ def generate(random, pid, autogen_tools, n):
     key = "xor1123901@#$"
     flag = "flag_" + sha1((str(n) + key).encode('utf-8')).hexdigest()
     with open(plaintext_path) as plain:
-        text = xor(plain.read() + flag, random_string(random.randint(4,8)), random_string(random.randint(3,5)))
+        text = xor(plain.read() + flag, random_string(random, random.randint(4,8)), random_string(random, random.randint(3,5)))
 
     with codecs.open(rendered_template_path, 'w', "utf-8") as out_file:
         out_file.write(text)
