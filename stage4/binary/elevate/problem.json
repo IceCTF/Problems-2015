@@ -1,7 +1,7 @@
 {"name": "Elevate",
  "score": 120,
  "category": "Binary Exploitation",
- "grader": "stage4/binary/shocked/grader.py",
+ "grader": "stage4/binary/elevate/grader.py",
  "description": "Do you want an elevated shell? I want an elevated shell. Get me one: <code>/home/elevate</code>",
  "threshold": 0,
  "weightmap": {},

@@ -1,8 +1,9 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
 
 import sys
-import base64
 import argparse
+import codecs
 
 """
 My diary encryption script
@@ -31,14 +32,15 @@ def decrypt(input_data, password):
 def main():
     parser = argparse.ArgumentParser("Diary Encryption Script(DES) v3.14")
 
-    parser.add_arguments("action", choices=["encrypt", "decrypt"])
-    parser.add_arguments("file", help="The input file")
-    parser.add_arguments("outfile", help="The output file")
-    parser.add_arguments("password", help="The encryption password")
+    parser.add_argument("action", choices=["encrypt", "decrypt"])
+    parser.add_argument("file", help="The input file")
+    parser.add_argument("outfile", help="The output file")
+    parser.add_argument("password", help="The encryption password")
 
     opts = parser.parse_args()
 
-    input_data = open(opts.file, 'r').read()
+    with codecs.open(opts.file, 'r', "utf-8") as in_file:
+        input_data = in_file.read()
     result_data = ""
 
     if opts.action == "encrypt":
@@ -46,8 +48,7 @@ def main():
     elif opts.action == "decrypt":
         result_data = decrypt(input_data, opts.password)
 
-    out_file = open(opts.outfile, 'w')
-    out_file.write(result_data)
-    out_file.close()
+    with codecs.open(opts.outfile, 'w', "utf-8") as out_file:
+        out_file.write(result_data)
 
 main()
