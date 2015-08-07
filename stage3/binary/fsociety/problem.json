@@ -1,8 +1,8 @@
-{"name": "Yee-Haw Cowboy!",
- "score": 70,
+{"name": "fsociety",
+ "score": 95,
  "category": "Binary",
- "grader": "stage3/binary/cowboy/grader.py",
- "description": "There's this neat little program that prints out a cow with given text from a file with the .cow extension. You can find it under <code>/home/cows</code> on the <a href='http://play.icec.tf/shell'>shell</a>",
+ "grader": "stage3/binary/fsociety/grader.py",
+ "description": "<code>MrRobot</code> doesn't want to talk to anyone without the proper passphrase. You can find him in the <a href='http://icec.tf/play/chat'>Chat</a>... Here's the <a href=''>sauce</a>",
  "threshold": 0,
  "weightmap": {},
- "hint": "If only we could trick it into opening flag.txt"}
+ "hint": ""}
