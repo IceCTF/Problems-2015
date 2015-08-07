@@ -7,4 +7,11 @@ This still leaves about 100 keys, but we can optimize the search to only look at
 set([a*b for a in range(10) for b in range(10)])
 ```
 
+Actually this can be taken a step further, as you only need to consider the lcm of the numbers. Thus, 
+
+```
+from fractions import gcd
+set([(a*b)//gcd(a,b) for a in range(1,10) for b in range(1,10)])
+```
+
 Anyway, given this, we just run xortool to analyze the encrypted text, pick whichever item exists in both lists, and we're done.

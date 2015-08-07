@@ -51,6 +51,6 @@ def generate(random, pid, autogen_tools, n):
             ]
         },
         "problem_updates": {
-        "description": "<p>So it turns out that repeated XOR isn't exactly secure. After realizing this, Sadobe Corp decided to create a much more secure standard, which it calls 2x0r.</p><p>They provided a sample implementation %s.</p><p>They also dared us to get the flag! Ofcourse, we take no such challenge lightly. Beat it out of them if you have to! %s</p>" % (source_link, encrypted_link)
+        "description": "<p>So it turns out that repeated XOR isn't exactly secure. After realizing this, Idobe Corp decided to create a much more secure standard, which it calls 2x0r.</p><p>They provided a sample implementation %s.</p><p>They also dared us to get the flag! Ofcourse, we take no such challenge lightly. Beat it out of them if you have to! %s</p>" % (source_link, encrypted_link)
         }
     }
