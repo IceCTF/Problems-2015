@@ -2,7 +2,7 @@
  "score": 95,
  "category": "Binary",
  "grader": "stage3/binary/fsociety/grader.py",
- "description": "<code>MrRobot</code> doesn't want to talk to anyone without the proper passphrase. You can find him in the <a href='http://icec.tf/play/chat'>Chat</a>... Here's the <a href='/problem-static/stage3/binary/fsociety/fsociety00.dat'>sauce</a>",
+ "description": "<code>MrRobot</code> doesn't want to talk to anyone without the proper passphrase. You can find him in the <a href='http://icec.tf/play/chat'>Chat</a>. He also left us this <a href='/problem-static/stage3/binary/fsociety/fsociety00.dat'>strange file</a>",
  "threshold": 0,
  "weightmap": {},
  "hint": "It only seems to respond to certain nicknames as well"}
