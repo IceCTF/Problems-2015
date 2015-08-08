@@ -1,0 +1,8 @@
+{"name": "Sausages",
+ "score": 200,
+ "category": "Cryptography",
+ "grader": "stage4/crypto/sausages/grader.py",
+ "description": "So our friend steve challenged us to hack into his server. You can access it at <code>ssh -p 2222 vuln2015.icec.tf</code>. Oh, we also found his GitHub account, it's <a href='https://github.com/icectf-steve'>here</a>.",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "This time you'll really have to break RSA. There's something wrong with his key, can you find it?"}
