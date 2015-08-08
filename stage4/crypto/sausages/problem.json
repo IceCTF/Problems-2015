@@ -2,7 +2,7 @@
  "score": 200,
  "category": "Cryptography",
  "grader": "stage4/crypto/sausages/grader.py",
- "description": "So our friend Steve challenged us to hack into his server. You can access it at <code>ssh -p 2222 vuln2015.icec.tf</code>. Oh, we also found his GitHub account, it's <a href='https://github.com/icectf-steve'>here</a>.",
+ "description": "So our friend Steve challenged us to hack into his server. You can access it at <code>ssh -p 2222 vuln2015.icec.tf</code>. He remembered to turn off password authentication though. Oh, we also found his GitHub account, it's <a href='https://github.com/icectf-steve'>here</a>.",
  "threshold": 0,
  "weightmap": {},
  "hint": "<p>This time you'll really have to break RSA. There's something wrong with his key, can you find it?</p><p>Oh, and Steve really likes german sausages :) be sure to leave him some on the server.</p>"}
