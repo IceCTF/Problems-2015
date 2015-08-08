@@ -2,8 +2,6 @@
 #include "irc.h"
 #include <string.h>
 #include <time.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 int irc_connect(irc_t *irc, const char* server, const char* port)
 {
@@ -19,7 +17,6 @@ int irc_connect(irc_t *irc, const char* server, const char* port)
 
 int irc_login(irc_t *irc, const char* nick)
 {
-    irc_log_message(irc, "DEBUG", "Logging in...");
    return irc_reg(irc->s, nick, "fsociety", "Christian Slater");
 }
 
@@ -107,6 +104,7 @@ int irc_parse_action(irc_t *irc)
       char *ptr;
       int privmsg = 0;
       char irc_nick[128];
+      char irc_chan[128];
       char irc_msg[512];
       *irc_nick = '\0';
       *irc_msg = '\0';
@@ -134,23 +132,29 @@ int irc_parse_action(irc_t *irc)
             if ( strcmp(ptr, "PRIVMSG") == 0 )
             {
                privmsg = 1;
+
                break;
             }
          }
 
          if ( privmsg )
          {
-            if ( (ptr = strtok(NULL, ":")) != NULL && (ptr = strtok(NULL, "")) != NULL )
-            {
-               strncpy(irc_msg, ptr, 511);
-               irc_msg[511] = '\0';
+            if ( (ptr = strtok(NULL, " ")) != NULL) {
+                strncpy(irc_chan, ptr, 127);
+                irc_chan[127] = '\0';
+
+                if ( (ptr = strtok(NULL, "")) != NULL )
+                {
+                   strncpy(irc_msg, &ptr[1], 511);
+                   irc_msg[511] = '\0';
+                }
             }
          }
 
          if ( privmsg == 1 && strlen(irc_nick) > 0 && strlen(irc_msg) > 0 )
          {
-            irc_log_message(irc, irc_nick, irc_msg);
-            if ( irc_reply_message(irc, irc_nick, irc_msg) < 0 )
+            irc_log_message(irc, irc_nick, irc_chan, irc_msg);
+            if ( irc_reply_message(irc, irc_nick, irc_chan, irc_msg) < 0 )
                return -1;
          }
       }
@@ -211,17 +215,20 @@ int irc_authenticate(irc_t *irc, char *nick, char *msg)
     return 0;
 }
 
-int irc_reply_message(irc_t *irc, char *irc_nick, char *msg)
+int irc_reply_message(irc_t *irc, char *irc_nick, char *irc_chan, char *msg)
 {
-    if(irc_authenticate(irc, irc_nick, msg))
+    if(strcmp("MrRobot", irc_chan) == 0)
     {
-        FILE *f;
-        char flag[64];
-        f = fopen("flag.txt", "r");
-        fgets(flag, 64, f);
-        fclose(f);
+        if(irc_authenticate(irc, irc_nick, msg))
+        {
+            FILE *f;
+            char flag[64];
+            f = fopen("flag.txt", "r");
+            fgets(flag, 64, f);
+            fclose(f);
 
-        irc_msg(irc->s, irc_nick, flag);
+            irc_msg(irc->s, irc_nick, flag);
+        }
     }
 
    // Checks if someone calls on the bot.
@@ -330,7 +337,7 @@ int irc_reply_message(irc_t *irc, char *irc_nick, char *msg)
    return 0;
 }
 
-int irc_log_message(irc_t *irc, const char* nick, const char* message)
+int irc_log_message(irc_t *irc, const char* nick, const char* chan, const char* message)
 {
    char timestring[128];
    time_t curtime;
@@ -338,7 +345,10 @@ int irc_log_message(irc_t *irc, const char* nick, const char* message)
    strftime(timestring, 127, "%F - %H:%M:%S", localtime(&curtime));
    timestring[127] = '\0';
 
-   fprintf(irc->file, "%s - [%s] <%s> %s\n", irc->channel, timestring, nick, message);
+   if(chan == NULL)
+       fprintf(irc->file, "%s - [%s] %s: %s\n", irc->channel, timestring, nick, message);
+   else
+       fprintf(irc->file, "%s - [%s] <%s> %s: %s\n", irc->channel, timestring, chan, nick, message);
    fflush(irc->file);
 }
 
