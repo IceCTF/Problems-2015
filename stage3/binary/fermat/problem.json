@@ -1,0 +1,8 @@
+{"name": "Fermat",
+ "score": 80,
+ "category": "Binary",
+ "grader": "stage3/binary/fermat/grader.py",
+ "description": "This program is vulnerabel to format string attacks! See if you can modify a variable by supplying a format string!. The binary can be found at <code>/home/fermat</code> on the <a href='http://icec.tf/play/shell'>shell</a>",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "There is already a pointer to the variable on the stack! Also, %n may be useful!"}
