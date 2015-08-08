@@ -1,0 +1,8 @@
+{"name": "Onions have layers",
+ "score": 85,
+ "category": "Binary Exploitation",
+ "grader": "stage4/binary/onions/grader.py",
+ "description": "During your research, you have found a mysterious file. Although titled '<a href='/problem-static/stage3/binary/onions/mystery.sh'>mystery.sh</a>', it does not seem to run as a regular shell script.",
+ "threshold": 0,
+ "weightmap": {},
+ "hint": "The bottom of the pit is most interesting"}
