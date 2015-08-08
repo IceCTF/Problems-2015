@@ -2,7 +2,7 @@
  "score": 130,
  "category": "Cryptography",
  "grader": "stage4/crypto/agents/grader.py",
- "description": "<p>Evilcorp is up to their no good buisness again! Apparently, it has been using a service to send commands to its agents using RSA encryption. The public keys are stored locally on the server, and the agents are issued an ID number corresponding to their key.</p><p>Can you intercep their messages? <code>nc vuln2015.icec.tf 31896</code>.</p><p><a href='/problem-static/stage4/crypto/agents/server.py'>server.py</a></p>",
+ "description": "<p>Evilcorp is up to their no good buisness again! Apparently, it has been using a service to send commands to its agents using RSA encryption. The public keys are stored locally on the server, and the agents are issued an ID number corresponding to their key.</p><p>Can you intercept their messages? <code>nc vuln2015.icec.tf 31896</code>.</p><p>We also got their source: <a href='/problem-static/stage4/crypto/agents/server.py'>server.py</a></p>",
  "threshold": 0,
  "weightmap": {},
- "hint": "One of these is not like the other. Spread its power to the masses."}
+ "hint": "We suspect Agent 743 is compromised. Release his intelligence to the masses."}
