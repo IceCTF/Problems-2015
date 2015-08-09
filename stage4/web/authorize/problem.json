@@ -2,7 +2,7 @@
  "score": 120,
  "category": "Web Exploitation",
  "grader": "stage4/web/authorize/grader.py",
- "description": "<a href='http://web2015.icec.tf/authorize'>site</a>?",
+ "description": "Do you think you can login to the admin account at <a href='http://web2015.icec.tf/authorize'>Evil Corp</a>?",
  "threshold": 0,
  "weightmap": {},
  "hint": "Registering is like so 2014!"}
