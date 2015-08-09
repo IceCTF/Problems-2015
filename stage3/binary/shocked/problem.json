@@ -5,4 +5,23 @@
  "description": "<p>We found this server, which gives you the current date and time when you connect to it. Useful, right? We think there is more to it though...</p> <p>You can access it by running <code>ssh -p 2022 ctf@vuln2015.icec.tf</code>. The password is <code>icectf2015</code>.</p>",
  "threshold": 0,
  "weightmap": {},
- "hint": "I think something suspicious might be running this code."}
+ "hint": "I think something suspicious might be running this code.",
+ "threshold": 10,
+ "weightmap": {
+    "open_sesame": 1,
+    "overflow1": 1,
+    "overflow2": 1,
+    "simple": 1,
+    "diary": 1,
+    "farm_animals": 1,
+    "numb3rs": 1,
+    "doc_troubles": 1,
+    "scanme": 1,
+    "sharknado": 1,
+    "statistics": 1,
+    "bomb": 1,
+    "giffy": 1,
+    "injection": 1,
+    "injection_1": 1
+ }
+}

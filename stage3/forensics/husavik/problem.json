@@ -5,4 +5,23 @@
  "description": "This handy <a href='/problem-static/stage3/forensics/husavik/husavik.apk'>Android App</a> is supposed to display the flag, but it's not working!",
  "threshold": 0,
  "weightmap": {},
- "hint": "Only if you could get into the code..."}
+ "hint": "Only if you could get into the code...",
+ "threshold": 10,
+ "weightmap": {
+    "open_sesame": 1,
+    "overflow1": 1,
+    "overflow2": 1,
+    "simple": 1,
+    "diary": 1,
+    "farm_animals": 1,
+    "numb3rs": 1,
+    "doc_troubles": 1,
+    "scanme": 1,
+    "sharknado": 1,
+    "statistics": 1,
+    "bomb": 1,
+    "giffy": 1,
+    "injection": 1,
+    "injection_1": 1
+ }
+}

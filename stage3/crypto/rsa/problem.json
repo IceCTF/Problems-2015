@@ -5,4 +5,23 @@
  "description": "<p>We figured out our enemies were sending messages encrypted with RSA. We managed to get their data, but we suck at math. Can you do it?</p><p>Here's the <a href='/problem-static/stage3/crypto/rsa/data'>data</a>.</p><p>P.S: The flag isn't a number, but ascii text.</p>",
  "threshold": 0,
  "weightmap": {},
- "hint": "Try Wikipedia"}
+ "hint": "Try Wikipedia",
+ "threshold": 10,
+ "weightmap": {
+    "open_sesame": 1,
+    "overflow1": 1,
+    "overflow2": 1,
+    "simple": 1,
+    "diary": 1,
+    "farm_animals": 1,
+    "numb3rs": 1,
+    "doc_troubles": 1,
+    "scanme": 1,
+    "sharknado": 1,
+    "statistics": 1,
+    "bomb": 1,
+    "giffy": 1,
+    "injection": 1,
+    "injection_1": 1
+ }
+}

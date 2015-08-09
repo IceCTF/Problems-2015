@@ -5,4 +5,23 @@
  "description": "It hurts my head to look at this <a href='/problem-static/stage3/forensics/epilepsy_warning/rave.gif'>GIF</a>, just get it away from me...",
  "threshold": 0,
  "weightmap": {},
- "hint": "All your senses need to be on alert for this one, keep your eyes peered and listen"}
+ "hint": "All your senses need to be on alert for this one, keep your eyes peered and listen",
+ "threshold": 10,
+ "weightmap": {
+    "open_sesame": 1,
+    "overflow1": 1,
+    "overflow2": 1,
+    "simple": 1,
+    "diary": 1,
+    "farm_animals": 1,
+    "numb3rs": 1,
+    "doc_troubles": 1,
+    "scanme": 1,
+    "sharknado": 1,
+    "statistics": 1,
+    "bomb": 1,
+    "giffy": 1,
+    "injection": 1,
+    "injection_1": 1
+ }
+}

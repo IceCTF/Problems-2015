@@ -5,4 +5,23 @@
  "description": "Hackers often don't want to be recognized in public for whatever reason, can you help them find a disguise on this handy <a href='http://disguise.icec.tf/'>site</a>?",
  "threshold": 0,
  "weightmap": {},
- "hint": "Making faces is fun, but making shells is more fun"}
+ "hint": "Making faces is fun, but making shells is more fun",
+ "threshold": 10,
+ "weightmap": {
+    "open_sesame": 1,
+    "overflow1": 1,
+    "overflow2": 1,
+    "simple": 1,
+    "diary": 1,
+    "farm_animals": 1,
+    "numb3rs": 1,
+    "doc_troubles": 1,
+    "scanme": 1,
+    "sharknado": 1,
+    "statistics": 1,
+    "bomb": 1,
+    "giffy": 1,
+    "injection": 1,
+    "injection_1": 1
+ }
+}

@@ -5,4 +5,23 @@
  "description": "<p>We managed to pick up another RSA transmission from our enemies. This time though, they remembered to clean up the private key data. Can you get it anyway?</p>",
  "threshold": 0,
  "weightmap": {},
- "hint": "Think you can crack it anyway? It should be a short message."}
+ "hint": "Think you can crack it anyway? It should be a short message.",
+ "threshold": 10,
+ "weightmap": {
+    "open_sesame": 1,
+    "overflow1": 1,
+    "overflow2": 1,
+    "simple": 1,
+    "diary": 1,
+    "farm_animals": 1,
+    "numb3rs": 1,
+    "doc_troubles": 1,
+    "scanme": 1,
+    "sharknado": 1,
+    "statistics": 1,
+    "bomb": 1,
+    "giffy": 1,
+    "injection": 1,
+    "injection_1": 1
+ }
+}
