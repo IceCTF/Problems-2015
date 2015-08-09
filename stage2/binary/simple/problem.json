@@ -3,6 +3,18 @@
  "category": "Binary Exploitation",
  "grader": "stage2/binary/simple/grader.py",
  "description": "Simple, right? <code>nc vuln2015.icec.tf 10000</code>.",
- "threshold": 0,
- "weightmap": {},
- "hint": "What is at the other end?"}
+ "hint": "What is at the other end?",
+ "threshold": 6,
+ "weightmap": {
+    "cryptic_crypto": 1,
+    "numeric": 1,
+    "rot13": 1,
+    "logoventures": 1,
+    "logoventures2": 1,
+    "_the_planet": 1,
+    "facebook": 1,
+    "not_found": 1,
+    "liar": 1,
+    "oh_no": 1
+ }
+}

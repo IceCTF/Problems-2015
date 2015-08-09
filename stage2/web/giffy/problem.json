@@ -3,6 +3,18 @@
  "category": "Web Exploitation",
  "grader": "stage2/web/giffy/grader.py",
  "description": "A real hacker must have a good place to store his gifs! We found one such collection <a href='http://web2015.icec.tf/giffy/'>here</a>. Can you try to read <code>flag.txt</code>?",
- "threshold": 0,
- "weightmap": {},
- "hint": "A <code>.txt</code> file isn't a GIF :( So why would it be in the same place?"}
+ "hint": "A <code>.txt</code> file isn't a GIF :( So why would it be in the same place?",
+ "threshold": 6,
+ "weightmap": {
+    "cryptic_crypto": 1,
+    "numeric": 1,
+    "rot13": 1,
+    "logoventures": 1,
+    "logoventures2": 1,
+    "_the_planet": 1,
+    "facebook": 1,
+    "not_found": 1,
+    "liar": 1,
+    "oh_no": 1
+ }
+}

@@ -3,6 +3,18 @@
  "category": "Cryptography",
  "grader": "stage2/crypto/farm_animals/grader.py",
  "description": "We found this <a target='_blank' href='/problem-static/stage2/crypto/farm_animals/crypto1.png'>message</a> written in strange symbols, can you read it for us?",
- "threshold": 0,
- "weightmap": {},
- "hint": "Those pesky little pigs are always up to something"}
+ "hint": "Those pesky little pigs are always up to something",
+ "threshold": 6,
+ "weightmap": {
+    "cryptic_crypto": 1,
+    "numeric": 1,
+    "rot13": 1,
+    "logoventures": 1,
+    "logoventures2": 1,
+    "_the_planet": 1,
+    "facebook": 1,
+    "not_found": 1,
+    "liar": 1,
+    "oh_no": 1
+ }
+}

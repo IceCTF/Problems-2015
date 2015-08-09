@@ -3,6 +3,18 @@
  "category": "Forensics",
  "grader": "stage2/forensics/doc_troubles/grader.py",
  "description": "We found this <a target='_blank' href='/problem-static/stage2/forensics/doc_troubles/file.docx'>document</a>, and we think it contains the flag. Can you find it?",
- "threshold": 0,
- "weightmap": {},
- "hint": "What exactly is a .docx file?"}
+ "hint": "What exactly is a .docx file?",
+ "threshold": 6,
+ "weightmap": {
+    "cryptic_crypto": 1,
+    "numeric": 1,
+    "rot13": 1,
+    "logoventures": 1,
+    "logoventures2": 1,
+    "_the_planet": 1,
+    "facebook": 1,
+    "not_found": 1,
+    "liar": 1,
+    "oh_no": 1
+ }
+}

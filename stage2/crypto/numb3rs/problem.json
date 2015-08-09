@@ -3,6 +3,18 @@
  "category": "Cryptography",
  "grader": "stage2/crypto/numb3rs/grader.py",
  "description": "05110006_00111507000104190802_08130308020418",
- "threshold": 0,
- "weightmap": {},
- "hint": "I think they come in pairs"}
+ "hint": "I think they come in pairs",
+ "threshold": 6,
+ "weightmap": {
+    "cryptic_crypto": 1,
+    "numeric": 1,
+    "rot13": 1,
+    "logoventures": 1,
+    "logoventures2": 1,
+    "_the_planet": 1,
+    "facebook": 1,
+    "not_found": 1,
+    "liar": 1,
+    "oh_no": 1
+ }
+}
