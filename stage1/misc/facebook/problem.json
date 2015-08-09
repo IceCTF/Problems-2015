@@ -1,5 +1,5 @@
 {"name": "Facebook",
- "score": 20,
+ "score": 15,
  "category": "Miscellaneous",
  "grader": "stage1/misc/facebook/grader.py",
  "description": "Could there be something hidden on our <a target='_blank' href='https://facebook.com/icectf'>facebook page</a>?",

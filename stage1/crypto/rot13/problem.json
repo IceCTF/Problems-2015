@@ -1,5 +1,5 @@
 {"name": "ROT13",
- "score": 20,
+ "score": 25,
  "category": "Cryptography",
  "grader": "stage1/crypto/rot13/grader.py",
  "description": "Can you decipher <a target='_blank' href='/problem-static/stage1/crypto/rot13/code.txt'>this secret message</a>?",

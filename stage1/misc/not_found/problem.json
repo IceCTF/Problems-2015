@@ -1,5 +1,5 @@
 {"name": "Not Found",
- "score": 20,
+ "score": 15,
  "category": "Miscellaneous",
  "grader": "stage1/misc/not_found/grader.py",
  "description": "I lost this problem!!! Can you help me find it? There's a flag in it for you if you do ;)",

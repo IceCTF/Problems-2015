@@ -1,5 +1,5 @@
 {"name": "Numeric",
- "score": 25,
+ "score": 20,
  "category": "Cryptography",
  "grader": "stage1/crypto/numeric/grader.py",
  "description": "bG9zdF9pbl90aGVfbnVtYmVycw==",
