@@ -1,5 +1,5 @@
 {"name": "Cryptic Crypto",
- "score": 30,
+ "score": 35,
  "category": "Cryptography",
  "grader": "stage1/crypto/cryptic_crypto/grader.py",
  "description": "Can you take a look at this non-sense <a href='/problem-static/stage1/crypto/cryptic_crypto/text.txt'>wall of text</a> we stumbled upon?",
