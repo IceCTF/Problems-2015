@@ -6,15 +6,15 @@
  "hint": "This is just <a href='https://en.wikipedia.org/wiki/Buffer_overflow'>buffer overflow</a>.",
  "threshold": 6,
  "weightmap": {
-    "cryptic_crypto": 1,
-    "numeric": 1,
-    "rot13": 1,
-    "logoventures": 1,
-    "logoventures2": 1,
-    "_the_planet": 1,
-    "facebook": 1,
-    "not_found": 1,
-    "liar": 1,
-    "oh_no": 1
+    "Cryptic Crypto": 1,
+    "Numeric": 1,
+    "ROT13": 1,
+    "Logoventures": 1,
+    "Logoventures 2: Reloaded": 1,
+    "Warm Up": 1,
+    "Facebook": 1,
+    "Not Found": 1,
+    "Liar": 1,
+    "Oh No!": 1
  }
 }
