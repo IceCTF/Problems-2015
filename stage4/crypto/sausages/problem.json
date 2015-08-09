@@ -6,6 +6,6 @@
  "hint": "<p>This time you'll really have to break RSA. There's something wrong with his key, can you find it?</p><p>Oh, and Steve really likes german sausages :) be sure to leave him some on the server.</p>",
  "threshold": 1,
  "weightmap": {
-    "sausages": 1
+    "Alternate RSA": 1
  }
 }

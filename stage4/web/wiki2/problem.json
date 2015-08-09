@@ -6,6 +6,6 @@
  "hint": "This is still an XSS problem :3",
  "threshold": 1,
  "weightmap": {
-    "authorize": 1
+    "Authorize": 1
  }
 }

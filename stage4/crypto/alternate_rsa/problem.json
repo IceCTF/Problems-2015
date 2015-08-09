@@ -6,6 +6,6 @@
  "hint": "There must be a glitch in the matrix.",
  "threshold": 1,
  "weightmap": {
-    "agents": 1
+    "Agents": 1
  }
 }
