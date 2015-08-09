@@ -2,7 +2,7 @@
  "score": 90,
  "category": "Web Exploitation",
  "grader": "stage3/web/barista/grader.py",
- "description": "Our friend Michael decided to make a barista simulator in CoffeeScript :3. He sent us the <a href='/problem-static/stage3/web/barista/coffee.zip'>here</a>. Can you get the secret spice? <a href='http://web2015.icec.tf:10550'>http://web2015.icec.tf:10550</a>",
+ "description": "Our friend Michael decided to make a barista simulator in CoffeeScript :3. Can you get the secret spice? <a href='http://coffee.icec.tf/'>http://coffee.icec.tf/</a>  <a href='/problem-static/stage3/web/barista/coffee.zip'>source</a>.",
  "threshold": 0,
  "weightmap": {},
  "hint": "If you open your eyes and look past the visible, what remains?"}
