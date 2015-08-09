@@ -1,0 +1,1 @@
+A json object has the function __defineGetter__. So we just request `/__defineGetter__?arg[]=is_admin`, and done!.
