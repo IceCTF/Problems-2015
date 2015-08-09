@@ -2,7 +2,7 @@
  "score": 90,
  "category": "Web Exploitation",
  "grader": "stage3/web/wiki/grader.py",
- "description": "This corporation hid their flag on their <a href='http://wiki.icec.tf'>wiki page</a>. Can you find it?",
+ "description": "This corporation hid their flag on their <a target='_blank' href='http://wiki.icec.tf'>wiki page</a>. Can you find it?",
  "hint": "What happens if a wiki page contains HTML?",
  "threshold": 10,
  "weightmap": {

@@ -2,7 +2,7 @@
  "score": 50,
  "category": "Web Exploitation",
  "grader": "stage2/web/injection/grader.py",
- "description": "I'm just gonna leave <a href='http://web2015.icec.tf/injection'>this</a> here...",
+ "description": "I'm just gonna leave <a target='_blank' href='http://web2015.icec.tf/injection'>this</a> here...",
  "hint": "Can you try to enable debug mode?",
  "threshold": 6,
  "weightmap": {

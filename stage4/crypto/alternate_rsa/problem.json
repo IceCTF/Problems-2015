@@ -2,7 +2,7 @@
  "score": 150,
  "category": "Cryptography",
  "grader": "stage4/crypto/alternate_rsa/grader.py",
- "description": "<p>I got bored with RSA and decided to try something old... It's secure though, right?</p><p><a href='/problem-static/stage4/crypto/alternate_rsa/knapsack.py'>knapsack.py</a> <a href='/problem-static/stage4/crypto/alternate_rsa/pubkey.txt'>pubkey.txt</a> <a href='/problem-static/stage4/crypto/alternate_rsa/ciphertext.txt'>ciphertext.txt</a></p>",
+ "description": "<p>I got bored with RSA and decided to try something old... It's secure though, right?</p><p><a target='_blank' href='/problem-static/stage4/crypto/alternate_rsa/knapsack.py'>knapsack.py</a> <a target='_blank' href='/problem-static/stage4/crypto/alternate_rsa/pubkey.txt'>pubkey.txt</a> <a target='_blank' href='/problem-static/stage4/crypto/alternate_rsa/ciphertext.txt'>ciphertext.txt</a></p>",
  "hint": "There must be a glitch in the matrix.",
  "threshold": 1,
  "weightmap": {

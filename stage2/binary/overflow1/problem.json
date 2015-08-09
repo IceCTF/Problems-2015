@@ -3,7 +3,7 @@
  "category": "Binary Exploitation",
  "grader": "stage2/binary/overflow1/grader.py",
  "description": "Why don't you try your hand at <code>/home/overflow1</code>? Good luck!",
- "hint": "This is just <a href='https://en.wikipedia.org/wiki/Buffer_overflow'>buffer overflow</a>.",
+ "hint": "This is just <a target='_blank' href='https://en.wikipedia.org/wiki/Buffer_overflow'>buffer overflow</a>.",
  "threshold": 6,
  "weightmap": {
     "Cryptic Crypto": 1,

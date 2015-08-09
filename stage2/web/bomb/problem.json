@@ -2,7 +2,7 @@
  "score": 40,
  "category": "Web Exploitation",
  "grader": "stage2/web/bomb/grader.py",
- "description": "We found a bomb!!! It could go off at any minute! We found the control panel for the bomb though, it's <a href='http://web2015.icec.tf/bomb'>here</a>. Can you defuse it?",
+ "description": "We found a bomb!!! It could go off at any minute! We found the control panel for the bomb though, it's <a target='_blank' href='http://web2015.icec.tf/bomb'>here</a>. Can you defuse it?",
  "hint": "Maybe you could ask it nicely?",
  "threshold": 6,
  "weightmap": {

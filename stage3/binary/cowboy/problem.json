@@ -2,7 +2,7 @@
  "score": 70,
  "category": "Binary",
  "grader": "stage3/binary/cowboy/grader.py",
- "description": "There's this neat little program that prints out a cow with given text from a file with the .cow extension. You can find it under <code>/home/cow</code> on the <a href='http://icec.tf/play/shell'>shell</a>",
+ "description": "There's this neat little program that prints out a cow with given text from a file with the .cow extension. You can find it under <code>/home/cow</code> on the <a target='_blank' href='http://icec.tf/play/shell'>shell</a>",
  "hint": "If only we could trick it into opening flag.txt",
  "threshold": 10,
  "weightmap": {

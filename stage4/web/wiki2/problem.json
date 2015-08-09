@@ -2,7 +2,7 @@
  "score": 160,
  "category": "Web Exploitation",
  "grader": "stage4/web/wiki2/grader.py",
- "description": "So, they patched the XSS vulnerability, but added a comment system. The page is here: <a href='http://furious-wiki.icec.tf/'>page</a>. Can you see if you can replay your hack?",
+ "description": "So, they patched the XSS vulnerability, but added a comment system. The page is here: <a target='_blank' href='http://furious-wiki.icec.tf/'>page</a>. Can you see if you can replay your hack?",
  "hint": "This is still an XSS problem :3",
  "threshold": 1,
  "weightmap": {

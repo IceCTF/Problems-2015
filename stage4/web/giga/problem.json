@@ -2,7 +2,7 @@
  "score": 200,
  "category": "Web Exploitation",
  "grader": "stage4/web/giga/grader.py",
- "description": "Here's a gif hosting service. We got word that it contains <code>flag.txt</code> though. Can you get it? <a href='http://giga.icec.tf/'>Giga</a>",
+ "description": "Here's a gif hosting service. We got word that it contains <code>flag.txt</code> though. Can you get it? <a target='_blank' href='http://giga.icec.tf/'>Giga</a>",
  "hint": "Go have a look at the authentication code, it seems funky.",
  "threshold": 1,
  "weightmap": {
