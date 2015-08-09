@@ -1,5 +1,5 @@
 {"name": "Scan Me",
- "score": 50,
+ "score": 55,
  "category": "Forensics",
  "grader": "stage2/forensics/scanme/grader.py",
  "description": "I found this <a target='_blank' href='/problem-static/stage2/forensics/scanme/qr.jpg'>QR Code</a> but I'm having some troubles scanning it. Be a dear and help me, won't you?",

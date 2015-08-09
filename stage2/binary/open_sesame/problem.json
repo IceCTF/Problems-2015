@@ -1,5 +1,5 @@
 {"name": "Open Sesame",
- "score": 70,
+ "score": 75,
  "category": "Binary Exploitation",
  "grader": "stage2/binary/open_sesame/grader.py",
  "description": "<p>Look at this <a target='_blank' href='/problem-static/stage2/crypto/open_sesame/icectf.class'>binary file</a>, it looks to be written in Java but we don't have a clue what it's supposed to do.</p><p>You can run it with <code>java icectf <flag></code></p>",
