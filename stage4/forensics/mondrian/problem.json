@@ -3,6 +3,25 @@
  "category": "Forensics",
  "grader": "stage4/forensics/mondrian/grader.py",
  "description": "We found the bizarre <a href='http://web2015.icec.tf/mondrian/'>website</a> with a mysterious video, can you figure this one out for us?",
- "threshold": 0,
- "weightmap": {},
- "hint": "The power of one, if fearless and focused, is formidable, but the power of many working together is better. ~ Gloria Macapagal Arroyo 1947"}
+ "hint": "The power of one, if fearless and focused, is formidable, but the power of many working together is better. ~ Gloria Macapagal Arroyo 1947",
+ "threshold": 13,
+ "weightmap": {
+    "cowboy": 1,
+    "fermat": 1,
+    "fsociety": 1,
+    "oninons": 1,
+    "pyshell": 1,
+    "shocked": 1,
+    "2xor": 1,
+    "entropy": 1,
+    "rsa": 1,
+    "rsathree": 1,
+    "epilepsy_warning": 1,
+    "husavik": 1,
+    "ryan_gooseling": 1,
+    "null": 1,
+    "barista": 1,
+    "disguise": 1,
+    "wiki": 1
+ }
+}

@@ -5,8 +5,6 @@
  "description": "",
  "generator": "stage3/crypto/2xor/generator.py",
  "autogen": true,
- "threshold": 0,
- "weightmap": {},
  "hint": "Does doubling up really make things harder? Oh, and they said they were so confident in their new encryption that they used short keys.",
  "threshold": 10,
  "weightmap": {

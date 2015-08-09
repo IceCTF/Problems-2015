@@ -3,8 +3,6 @@
  "category": "Forensics",
  "grader": "stage3/forensics/husavik/grader.py",
  "description": "This handy <a href='/problem-static/stage3/forensics/husavik/husavik.apk'>Android App</a> is supposed to display the flag, but it's not working!",
- "threshold": 0,
- "weightmap": {},
  "hint": "Only if you could get into the code...",
  "threshold": 10,
  "weightmap": {

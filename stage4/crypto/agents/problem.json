@@ -3,6 +3,25 @@
  "category": "Cryptography",
  "grader": "stage4/crypto/agents/grader.py",
  "description": "<p>Evilcorp is up to their no good buisness again! Apparently, it has been using a service to send commands to its agents using RSA encryption. The public keys are stored locally on the server, and the agents are issued an ID number corresponding to their key.</p><p>Can you intercept their messages? <code>nc vuln2015.icec.tf 31896</code>.</p><p>We also got their source: <a href='/problem-static/stage4/crypto/agents/server.py'>server.py</a></p>",
- "threshold": 0,
- "weightmap": {},
- "hint": "We suspect Agent 743 is compromised. Release his intelligence to the masses."}
+ "hint": "We suspect Agent 743 is compromised. Release his intelligence to the masses.",
+ "threshold": 13,
+ "weightmap": {
+    "cowboy": 1,
+    "fermat": 1,
+    "fsociety": 1,
+    "oninons": 1,
+    "pyshell": 1,
+    "shocked": 1,
+    "2xor": 1,
+    "entropy": 1,
+    "rsa": 1,
+    "rsathree": 1,
+    "epilepsy_warning": 1,
+    "husavik": 1,
+    "ryan_gooseling": 1,
+    "null": 1,
+    "barista": 1,
+    "disguise": 1,
+    "wiki": 1
+ }
+}
