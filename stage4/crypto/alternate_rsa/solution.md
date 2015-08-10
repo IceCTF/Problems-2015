@@ -12,3 +12,6 @@ hex(int("".join(tr[x] if x in tr else "1" for x in l2).rstrip("0")[::-1], 2))[2:
 ```
 
 This gives: `flag_my_knapsack_brings_all_the_boys_to_the_\x99a\xf1\xbb\x9d`, and the last 4 characters should be possible to guess.
+
+Resources: http://gnoobz.com/plaid-ctf-2015-lazy-writeup.html
+http://www.math.ucsd.edu/~crypto/Projects/JenniferBakker/Math187/#Anchor-Th-1435
