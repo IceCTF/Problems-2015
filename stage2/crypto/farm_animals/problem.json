@@ -1,8 +1,20 @@
 {"name": "Farm Animals",
- "score": 60,
+ "score": 65,
  "category": "Cryptography",
  "grader": "stage2/crypto/farm_animals/grader.py",
  "description": "We found this <a target='_blank' href='/problem-static/stage2/crypto/farm_animals/crypto1.png'>message</a> written in strange symbols, can you read it for us?",
- "threshold": 0,
- "weightmap": {},
- "hint": "Those pesky little pigs are always up to something"}
+ "hint": "Those pesky little pigs are always up to something",
+ "threshold": 6,
+ "weightmap": {
+    "Cryptic Crypto": 1,
+    "Numeric": 1,
+    "ROT13": 1,
+    "Logoventures": 1,
+    "Logoventures 2: Reloaded": 1,
+    "Warm Up": 1,
+    "Facebook": 1,
+    "Not Found": 1,
+    "Liar": 1,
+    "Oh No!": 1
+ }
+}

@@ -2,7 +2,24 @@
  "score": 85,
  "category": "Forensics",
  "grader": "stage3/forensics/husavik/grader.py",
- "description": "This handy <a href='/problem-static/stage3/forensics/husavik/husavik.apk'>Android App</a> is supposed to display the flag, but it's not working!",
- "threshold": 0,
- "weightmap": {},
- "hint": "Only if you could get into the code..."}
+ "description": "This handy <a target='_blank' href='/problem-static/stage3/forensics/husavik/husavik.apk'>Android App</a> is supposed to display the flag, but it's not working!",
+ "hint": "Only if you could get into the code...",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}

@@ -2,7 +2,26 @@
  "score": 130,
  "category": "Cryptography",
  "grader": "stage4/crypto/agents/grader.py",
- "description": "<p>Evilcorp is up to their no good buisness again! Apparently, it has been using a service to send commands to its agents using RSA encryption. The public keys are stored locally on the server, and the agents are issued an ID number corresponding to their key.</p><p>Can you intercept their messages? <code>nc vuln2015.icec.tf 31896</code>.</p><p>We also got their source: <a href='/problem-static/stage4/crypto/agents/server.py'>server.py</a></p>",
- "threshold": 0,
- "weightmap": {},
- "hint": "We suspect Agent 743 is compromised. Release his intelligence to the masses."}
+ "description": "<p>Evilcorp is up to their no good buisness again! Apparently, it has been using a service to send commands to its agents using RSA encryption. The public keys are stored locally on the server, and the agents are issued an ID number corresponding to their key.</p><p>Can you intercept their messages? <code>nc vuln2015.icec.tf 31896</code>.</p><p>We also got their source: <a target='_blank' href='/problem-static/stage4/crypto/agents/server.py'>server.py</a></p>",
+ "hint": "We suspect Agent 743 is compromised. Release his intelligence to the masses.",
+ "threshold": 13,
+ "weightmap": {
+    "Yee-Haw Cowboy!": 1,
+    "Fermat": 1,
+    "fsociety": 1,
+    "Onions have layers": 1,
+    "PyShell": 1,
+    "Shocked!": 1,
+    "2x0r": 1,
+    "Entropy": 1,
+    "RSA": 1,
+    "RSA3": 1,
+    "Epilepsy Warning": 1,
+    "Husavik": 1,
+    "Ryan Gooseling": 1,
+    "NULL": 1,
+    "Barista": 1,
+    "Hackers in disguise": 1,
+    "Wiki": 1
+ }
+}

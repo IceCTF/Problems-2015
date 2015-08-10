@@ -3,6 +3,25 @@
  "category": "Binary Exploitation",
  "grader": "stage4/binary/elevate/grader.py",
  "description": "Do you want an elevated shell? I want an elevated shell. Get me one: <code>/home/elevate</code>",
- "threshold": 0,
- "weightmap": {},
- "hint": "How can you access a password if you can't access it?"}
+ "hint": "How can you access a password if you can't access it?",
+ "threshold": 13,
+ "weightmap": {
+    "Yee-Haw Cowboy!": 1,
+    "Fermat": 1,
+    "fsociety": 1,
+    "Onions have layers": 1,
+    "PyShell": 1,
+    "Shocked!": 1,
+    "2x0r": 1,
+    "Entropy": 1,
+    "RSA": 1,
+    "RSA3": 1,
+    "Epilepsy Warning": 1,
+    "Husavik": 1,
+    "Ryan Gooseling": 1,
+    "NULL": 1,
+    "Barista": 1,
+    "Hackers in disguise": 1,
+    "Wiki": 1
+ }
+}

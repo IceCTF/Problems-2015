@@ -2,7 +2,24 @@
  "score": 90,
  "category": "Web Exploitation",
  "grader": "stage3/web/wiki/grader.py",
- "description": "This corporation hid their flag on their <a href='http://vuln2014.icec.tf:10501'>wiki page</a>. Can you find it?",
- "threshold": 0,
- "weightmap": {},
- "hint": "What happens if a wiki page contains HTML?"}
+ "description": "This corporation hid their flag on their <a target='_blank' href='http://wiki.icec.tf'>wiki page</a>. Can you find it?",
+ "hint": "What happens if a wiki page contains HTML?",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}

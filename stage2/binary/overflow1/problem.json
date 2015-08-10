@@ -1,8 +1,20 @@
 {"name": "Overflow 1",
- "score": 50,
+ "score": 55,
  "category": "Binary Exploitation",
  "grader": "stage2/binary/overflow1/grader.py",
  "description": "Why don't you try your hand at <code>/home/overflow1</code>? Good luck!",
- "threshold": 0,
- "weightmap": {},
- "hint": "This is just <a href='https://en.wikipedia.org/wiki/Buffer_overflow'>buffer overflow</a>."}
+ "hint": "This is just <a target='_blank' href='https://en.wikipedia.org/wiki/Buffer_overflow'>buffer overflow</a>.",
+ "threshold": 6,
+ "weightmap": {
+    "Cryptic Crypto": 1,
+    "Numeric": 1,
+    "ROT13": 1,
+    "Logoventures": 1,
+    "Logoventures 2: Reloaded": 1,
+    "Warm Up": 1,
+    "Facebook": 1,
+    "Not Found": 1,
+    "Liar": 1,
+    "Oh No!": 1
+ }
+}

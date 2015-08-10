@@ -2,7 +2,19 @@
  "score": 70,
  "category": "Web Exploitation",
  "grader": "stage2/web/injection_1/grader.py",
- "description": "I wanna access <a href='http://web2015.icec.tf/injection1'>this</a> page. Don't ask me why... just do it.",
- "threshold": 0,
- "weightmap": {},
- "hint": "I feel like the title should be enough :/"}
+ "description": "I wanna access <a target='_blank' href='http://web2015.icec.tf/injection1'>this</a> page. Don't ask me why... just do it.",
+ "hint": "I feel like the title should be enough :/",
+ "threshold": 6,
+ "weightmap": {
+    "Cryptic Crypto": 1,
+    "Numeric": 1,
+    "ROT13": 1,
+    "Logoventures": 1,
+    "Logoventures 2: Reloaded": 1,
+    "Warm Up": 1,
+    "Facebook": 1,
+    "Not Found": 1,
+    "Liar": 1,
+    "Oh No!": 1
+ }
+}

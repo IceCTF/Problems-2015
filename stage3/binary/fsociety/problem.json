@@ -2,7 +2,24 @@
  "score": 95,
  "category": "Binary",
  "grader": "stage3/binary/fsociety/grader.py",
- "description": "<code>MrRobot</code> doesn't want to talk to anyone without the proper passphrase. You can find him in the <a href='http://icec.tf/play/chat'>Chat</a>. He also left us this <a href='/problem-static/stage3/binary/fsociety/fsociety00.dat'>strange file</a>",
- "threshold": 0,
- "weightmap": {},
- "hint": "It only seems to respond to certain nicknames as well"}
+ "description": "<code>MrRobot</code> doesn't want to talk to anyone without the proper passphrase. You can find him in the <a target='_blank' href='http://icec.tf/play/chat'>Chat</a>. He also left us this <a target='_blank' href='/problem-static/stage3/binary/fsociety/fsociety00.dat'>strange file</a>",
+ "hint": "It only seems to respond to certain nicknames as well",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}

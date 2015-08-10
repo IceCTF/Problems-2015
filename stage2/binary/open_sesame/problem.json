@@ -1,8 +1,20 @@
 {"name": "Open Sesame",
- "score": 70,
+ "score": 75,
  "category": "Binary Exploitation",
  "grader": "stage2/binary/open_sesame/grader.py",
  "description": "<p>Look at this <a target='_blank' href='/problem-static/stage2/binary/open_sesame/icectf.class'>binary file</a>, it looks to be written in Java but we don't have a clue what it's supposed to do.</p><p>You can run it with <code>java icectf <flag></code></p>",
- "threshold": 0,
- "weightmap": {},
- "hint": "If only there was some way to 'decompile' this"}
+ "hint": "If only there was some way to 'decompile' this",
+ "threshold": 6,
+ "weightmap": {
+    "Cryptic Crypto": 1,
+    "Numeric": 1,
+    "ROT13": 1,
+    "Logoventures": 1,
+    "Logoventures 2: Reloaded": 1,
+    "Warm Up": 1,
+    "Facebook": 1,
+    "Not Found": 1,
+    "Liar": 1,
+    "Oh No!": 1
+ }
+}

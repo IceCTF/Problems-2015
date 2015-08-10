@@ -3,6 +3,23 @@
  "category": "Binary Exploitation",
  "grader": "stage3/binary/pyshell/grader.py",
  "description": "<p>Daniel is running this server which allows you to evaluate basic python expressions. It's clear that he's tried to secure it though. Can you see if you can get it to print the flag?</p> <p>You can access it by running <code>nc vuln2015.icec.tf 8000</code>.</p><p><a target='_blank' href='/problem-static/stage2/binary/pyshell/shell.py'>Source</a></p>",
- "threshold": 0,
- "weightmap": {},
- "hint": "Even if some keywords are banned, is that gonna stop you?"}
+ "hint": "Even if some keywords are banned, is that gonna stop you?",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}

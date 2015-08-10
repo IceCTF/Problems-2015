@@ -2,7 +2,24 @@
  "score": 80,
  "category": "Web Exploitation",
  "grader": "stage3/web/disguise/grader.py",
- "description": "Hackers often don't want to be recognized in public for whatever reason, can you help them find a disguise on this handy <a href='http://web2015.icec.tf/disguise'>site</a>?",
- "threshold": 0,
- "weightmap": {},
- "hint": "Making faces is fun, but making shells is more fun"}
+ "description": "Hackers often don't want to be recognized in public for whatever reason, can you help them find a disguise on this handy <a target='_blank' href='http://disguise.icec.tf/'>site</a>?",
+ "hint": "Making faces is fun, but making shells is more fun",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}

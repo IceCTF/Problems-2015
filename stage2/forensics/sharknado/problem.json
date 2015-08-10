@@ -2,7 +2,19 @@
  "score": 60,
  "category": "Forensics",
  "grader": "stage2/forensics/sharknado/grader.py",
- "description": "We managed to intercept <a target='_blank' href='/problem-static/stage2/forensics/sharknado/sharknado.pcap'>this web traffic</a>, the target was logging on to <a target='_blank' href='http://web2015.icec.tf/sharknado'>web2014.icec.tf</a>. can you look into it?",
- "threshold": 0,
- "weightmap": {},
- "hint": "If only you could filter the packets to make things easier..."}
+ "description": "We managed to intercept <a target='_blank' href='/problem-static/stage2/forensics/sharknado/sharknado.pcap'>this web traffic</a>, the target was logging on to <a target='_blank' href='http://web2015.icec.tf/sharknado'>web2015.icec.tf</a>. can you look into it?",
+ "hint": "If only you could filter the packets to make things easier...",
+ "threshold": 6,
+ "weightmap": {
+    "Cryptic Crypto": 1,
+    "Numeric": 1,
+    "ROT13": 1,
+    "Logoventures": 1,
+    "Logoventures 2: Reloaded": 1,
+    "Warm Up": 1,
+    "Facebook": 1,
+    "Not Found": 1,
+    "Liar": 1,
+    "Oh No!": 1
+ }
+}

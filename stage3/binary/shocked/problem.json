@@ -3,6 +3,23 @@
  "category": "Binary Exploitation",
  "grader": "stage3/binary/shocked/grader.py",
  "description": "<p>We found this server, which gives you the current date and time when you connect to it. Useful, right? We think there is more to it though...</p> <p>You can access it by running <code>ssh -p 2022 ctf@vuln2015.icec.tf</code>. The password is <code>icectf2015</code>.</p>",
- "threshold": 0,
- "weightmap": {},
- "hint": "I think something suspicious might be running this code."}
+ "hint": "I think something suspicious might be running this code.",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}

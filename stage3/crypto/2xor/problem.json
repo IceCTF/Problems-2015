@@ -5,6 +5,23 @@
  "description": "",
  "generator": "stage3/crypto/2xor/generator.py",
  "autogen": true,
- "threshold": 0,
- "weightmap": {},
- "hint": "Does doubling up really make things harder? Oh, and they said they were so confident in their new encryption that they used short keys."}
+ "hint": "Does doubling up really make things harder? Oh, and they said they were so confident in their new encryption that they used short keys.",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}

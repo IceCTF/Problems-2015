@@ -2,7 +2,24 @@
  "score": 75,
  "category": "Programming",
  "grader": "stage3/programming/null/grader.py",
- "description": "We found this <a href='/problem-static/stage3/programming/null/flag.txt'>text file</a> and it's suppose to have the flag, but I can't see anything",
- "threshold": 0,
- "weightmap": {},
- "hint": "Hmmm... it's not empty, why is this in the programming category?"}
+ "description": "We found this <a target='_blank' href='/problem-static/stage3/programming/null/flag.txt'>text file</a> and we were promised that it contained the flag, but we can't find anything. Those lying cheats!",
+ "hint": "Hmmm... it's not empty, but what's up with the category?",
+ "threshold": 10,
+ "weightmap": {
+    "Open Sesame": 1,
+    "Overflow 1": 1,
+    "Overflow 2": 1,
+    "Simple": 1,
+    "Diary": 1,
+    "Farm Animals": 1,
+    "Numb3rs": 1,
+    "Document Troubles": 1,
+    "Scan Me": 1,
+    "SHARKNADO!": 1,
+    "Statistics": 1,
+    "Bomb!": 1,
+    "Giffy": 1,
+    "Injection": 1,
+    "SQL Injection 1": 1
+ }
+}
