@@ -2,7 +2,7 @@
  "score": 90,
  "category": "Cryptography",
  "grader": "stage3/crypto/rsathree/grader.py",
- "description": "<p>We managed to pick up another RSA transmission from our enemies. This time though, they remembered to clean up the private key data. Can you get it anyway?</p>",
+ "description": "<p>We managed to pick up another RSA transmission from our enemies. This time though, they remembered to clean up the private key data. Can you get it anyway? <a target='_blank' href='/problem-static/stage3/rsathree/data'>data</a></p>",
  "hint": "Think you can crack it anyway? It should be a short message.",
  "threshold": 10,
  "weightmap": {
