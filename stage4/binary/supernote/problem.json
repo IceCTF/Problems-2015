@@ -2,7 +2,7 @@
  "score": 150,
  "category": "Binary Exploitation",
  "grader": "stage4/binary/supernote/grader.py",
- "description": "SuperNote is a startup aiming to become the best note taking app in the world! They asked us to pentest their software while it is in the beta stage: <code>/home/elevate</code>",
+ "description": "SuperNote is a startup aiming to become the best note taking app in the world! They asked us to pentest their software while it is in the beta stage: <code>/home/supernote</code>",
  "hint": "So the one who carries his home around town met up with the fluffy one, and they proceeded to determine which one of them was quicker. The answer? Neither.",
  "threshold": 1,
  "weightmap": {

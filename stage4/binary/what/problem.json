@@ -1,0 +1,11 @@
+{"name": "...What?",
+ "score": 190,
+ "category": "Binary Exploitation",
+ "grader": "stage4/binary/what/grader.py",
+ "description": "Uh, what? <code>/home/what</code>",
+ "hint": "It's a binary, but can you look at the code somehow?",
+ "threshold": 1,
+ "weightmap": {
+    "SuperNote": 1
+ }
+}
